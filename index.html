@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Home</title>
+    <style>
+        :root{
+            --bs-body-font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">    
+</head>
+
+<body class="bg-black">       
+    <div class="d-flex flex-column justify-content-between vh-100">
+        <header>
+            <div class="">
+                <nav class="navbar navbar-expand-sm bg-body-black bg-black mx-5 mb-3 ">
+                    <div class="container-fluid responsive mx-0">
+                        <a class="navbar-brand mx-0" href="index.html"><img alt="image" src=".\images\Dezign.png"></a>
+                        <button class="navbar-toggler bg-secondary mx-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav nav-underline ">
+                                <li class="nav-item">
+                                    <a class="px-3 nav-link active fw-bold" style="color: #BC3CD8;" aria-current="page"
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="text-light nav-link px-3 fw-bold" aria current="page" href="work.html">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="text-light nav-link px-3 fw-bold" href="about.html">about</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="d-flex align-items-center justify-content-center vh-100">
+            <div class="row">
+                <h1 class="display-5 text-secondary text-center">I'm a designer specialising in
+                    <span class=" display-5 fw-bold text-light"> UI/UX</span>
+                    <span class="display-5 text-secondary">and </span>
+                    <span class="display-5 fw-bold text-light"><br> Interaction Design</span>
+                </h1>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="#otherClient"><img alt="fleche" src=".\images\chevron-down.png"></a>
+        </div>
+    </div>
+    <div class="container" id="otherClient">
+        <div class="row">
+            <h1 class="display-5 text-secondary mt-5">Some of
+                <span class="display-5 text-light fw-bold my-5">the clients I have <br> designed for</span>
+            </h1>
+        </div>
+        <div class="row my-5 py-5">
+            <div class="col-lg-3 my-4">
+                <a href="https://www.airbnb.fr"><img alt="airbnb" src=".\images\Airbnb Logo.png" class="img-fluid"></a>
+            </div>
+            <div class="col-lg-3 my-4">
+                <a href="https://google.com"><img alt="google" src=".\images\Google Logo.png" class="img-fluid"></a>
+            </div>
+            <div class="col-lg-3 my-4">
+                <a href="https://www.microsoft.com/fr-fr"><img alt="microsoft" src=".\images\Microsoft Logo.png" class="img-fluid"></a>
+            </div>
+            <div class="col-lg-3 my-4">
+                <a href="https://www.fedex.com/fr-fr/home.html"><img alt="fedex" src=".\images\g15.png" class="img-fluid"></a>
+            </div>
+        </div>
+    </div>
+    <footer class="mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <span>
+                        <h1 class="display-5 text-secondary mb-3">Get
+                            <span class="display-5 text-light fw-bold ">in Touch</span>
+                        </h1>
+                        <p class="text-light d-flex justify-content-center">So that we can talk more about</p>
+                    </span>
+                </div>
+            </div>
+            <div class="row d-flex justify-items-center  mt-5">
+                <div class="col d-flex justify-content-center">
+                    <a href="#"><img src=".\images\Mail.png" alt="lien mail" class="img-fluid me-5"></a>
+                    <a href="#"><img src=".\images\Behance.png" alt="lien" class="img-fluid me-5"></a>
+                    <a href="#"><img src=".\images\Dribble.png" alt="lien site" class="img-fluid me-5"></a>
+                    <a href="#"><img src=".\images\LinkedIn.png" alt="lien linkedIn" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center my-5">
+                    <p class="text-secondary">Made with ❣️ by <span class="fw-bold text-light">Srinivas Dezign</span>
+                    </p>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

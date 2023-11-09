@@ -1,0 +1,11 @@
+:root{
+    --bs-body-font-family: 'Work Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 290px){
+    .responsive{
+    margin: 0px;
+    }
+}
+    
